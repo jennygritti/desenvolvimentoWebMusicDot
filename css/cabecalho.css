@@ -1,11 +1,14 @@
 .cabecalho {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
     text-align: center;
     font-size: 0.6rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.23em;
     color: #fff;
-    background-color:	#2D5377;
 }
 
 .cabecalho__logo {
@@ -33,7 +36,6 @@
     .cabecalho {
         padding-top: 0;
         padding-bottom: 0;
-        padding: 0 5%;
         display: flex;
         justify-content: space-between;
         align-items: center;
